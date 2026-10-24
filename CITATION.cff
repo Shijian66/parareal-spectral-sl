@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper it accompanies."
+title: "parareal-spectral-sl: a spectral semi-Lagrangian coarse propagator for Parareal"
+abstract: >-
+  Reference implementation of a coarse propagator for the Parareal solution of
+  the one-dimensional wave equation. The characteristic interval integral of
+  d'Alembert's formula is evaluated exactly in Fourier space, so that the only
+  remaining approximation is the interpolation of the characteristic feet.
+  The repository reproduces Figures 3, 4 and 6 of the accompanying manuscript.
+authors:
+  - family-names: Wang
+    given-names: Shijian
+version: 1.0.0
+date-released: "2026-10-24"
+license: MIT
+keywords:
+  - parareal
+  - parallel-in-time
+  - semi-Lagrangian
+  - spectral methods
+  - wave equation
+references:
+  - type: article
+    title: >-
+      A Spectral Semi-Lagrangian Coarse Propagator for the Parareal Solution of
+      the One-Dimensional Wave Equation
+    authors:
+      - family-names: Wang
+        given-names: Shijian
+    year: 2026
+    status: submitted

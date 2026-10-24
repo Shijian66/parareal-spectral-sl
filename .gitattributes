@@ -1,0 +1,16 @@
+# Normalise line endings on commit: LF in the repository, whatever the
+# platform checkout uses. Keeps diffs clean across Windows/macOS/Linux.
+* text=auto eol=lf
+
+# Binary assets must never be normalised.
+*.png binary
+*.jpg binary
+*.pdf binary
+*.zip binary
+*.ttf binary
+*.ttc binary
+
+# Generated figures are not tracked (see .gitignore); the rule is here in case
+# a user commits a frozen copy of them on purpose.
+Figure*.pdf binary
+Figure*.png binary

@@ -1,0 +1,42 @@
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+src/*.egg-info/
+
+# --- virtual environments ------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# --- test and coverage artefacts -----------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# --- figures produced by the scripts -------------------------------------
+Figure3.pdf
+Figure3.png
+Figure4.pdf
+Figure4.png
+Figure6.pdf
+Figure6.png
+
+# --- editors and operating systems ---------------------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
